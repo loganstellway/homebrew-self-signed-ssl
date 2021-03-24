@@ -8,7 +8,4 @@ class SelfSignedSsl < Formula
   def install
     bin.install "self-signed-tls"
   end
-
-  test do
-  end
 end
