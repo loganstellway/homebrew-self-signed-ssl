@@ -1,4 +1,4 @@
-# homebrew-formulae
+# homebrew-formulae 🍻
 
 Homebrew tap for [Homebrew](https://brew.sh) packages / formulae.
 
