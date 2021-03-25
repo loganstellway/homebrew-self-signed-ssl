@@ -1,9 +1,9 @@
-# homebrew-self-signed-ssl
+# homebrew-formulae
 
-Homebrew formula for [self-signed-ssl](https://github.com/lstellway/self-signed-ssl).
-Install using [Homebrew](https://brew.sh) via the following command:
+Homebrew tap for [Homebrew](https://brew.sh) packages / formulae.
+
+Install the tap:
 
 ```
-brew tap lstellway/self-signed-ssl
-brew install lstellway/self-signed-ssl/self-signed-ssl
+brew tap lstellway/formulae
 ```
