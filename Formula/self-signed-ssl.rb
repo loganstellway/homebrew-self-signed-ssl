@@ -1,11 +1,11 @@
 class SelfSignedSsl < Formula
   desc "Generate self-signed TLS certificate using OpenSSL"
   homepage "https://github.com/lstellway/self-signed-ssl"
-  url "https://github.com/lstellway/self-signed-ssl/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "32eecd8848f37064918b1cf60d4c915c349dddd9262c06dac41cb8a56121a084"
+  url "https://github.com/lstellway/self-signed-ssl/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "2dfb010bbab11239d40309bf1ac552a63f1b02edae424a70c9f8545554e2d74a"
   license "MIT"
 
   def install
-    bin.install "self-signed-tls"
+    bin.install ["self-signed-ssl", "self-signed-tls"]
   end
 end
