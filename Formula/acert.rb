@@ -8,7 +8,6 @@ class Acert < Formula
   depends_on "go" => :build
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
     system "go", "build", "-ldflags", "-X main.Version=v#{version}", *std_go_args(ldflags: "-s -w")
   end
 
