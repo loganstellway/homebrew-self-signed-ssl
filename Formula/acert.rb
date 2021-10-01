@@ -8,7 +8,7 @@ class Acert < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", "-ldflags", "-X main.Version=v#{version}", *std_go_args(ldflags: "-s -w")
+    system "go", "build", "-ldflags", *std_go_args(ldflags: "-s -w -X 'main.Version=v2021.09.01' -X 'main.ReleaseDate=2021-09-30 17:39:21 -0700'")
   end
 
   test do
