@@ -1,8 +1,8 @@
 class Acert < Formula
   desc "Command-line utility for managing PKI certificates"
   homepage "https://github.com/lstellway/acert"
-  url "https://github.com/lstellway/acert/archive/refs/tags/2021.09.1.tar.gz"
-  sha256 "ca1693bf615e7e4f57338eb93e883f1749304ced5c6622e4b53696da66829b88"
+  url "https://github.com/lstellway/acert/archive/refs/tags/v2021.09.1.tar.gz"
+  sha256 "93baec26efb49903ae9876c64a14c58ba9e9bf1f3306204254cd8f6bc0393802"
   license "MIT"
 
   depends_on "go" => :build
