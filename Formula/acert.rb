@@ -1,7 +1,7 @@
 class Acert < Formula
   desc "Command-line utility for managing PKI certificates"
   homepage "https://github.com/lstellway/acert"
-  url "https://github.com/lstellway/acert/archive/refs/tags/v2021.09.1.tar.gz"
+  url "https://github.com/lstellway/acert/releases/download/v2021.09.1/acert-2021.09.1.tar.gz"
   sha256 "0ef7de95a1770121bc3512ab958f72d6bee1627dc3f0c7a7c9e0e1fba3368a27"
   license "MIT"
 
